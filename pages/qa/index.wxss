@@ -1,0 +1,46 @@
+/* pages/qa/index.wxss */
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.container {
+  height: 100%;
+  padding: 0 16px;
+  background-color: #eef4fe;
+}
+
+.card {
+  width: 90%;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.card-title {
+  font-weight: 600;
+}
+
+.card-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.textarea-wrapper {
+  width: 95%;
+  margin-top: 12px;
+  border: 1px solid #eaea;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.btn-submit {
+  width: 50%;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  background-color: #281811;
+  color: #c3cac2;
+}

@@ -1,0 +1,13 @@
+<!--pages/home/index.wxml-->
+
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="btn-wrapper">
+    <button
+      class="btn"
+      open-type="chooseAvatar"
+      bind:chooseavatar="onChooseAvatar"
+    >
+      开始填写
+    </button>
+  </view>
+</scroll-view>

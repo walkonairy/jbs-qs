@@ -1,0 +1,4 @@
+<!--pages/result/index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container"> 感谢您的填写！ </view>
+</scroll-view>

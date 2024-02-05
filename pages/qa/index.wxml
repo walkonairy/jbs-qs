@@ -1,0 +1,67 @@
+<!--pages/qa/index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <view class="card">
+      <text class="card-title">1. 您的年龄多大了？*</text>
+      <radio-group class="card-radio-group">
+        <radio>18岁以下</radio>
+        <radio>18岁~22岁</radio>
+        <radio>22岁~26岁</radio>
+        <radio>26岁~30岁</radio>
+        <radio>30岁以上</radio>
+      </radio-group>
+    </view>
+
+    <view class="card">
+      <text class="card-title">2. 您以前听过剧本杀吗？*</text>
+      <radio-group class="card-radio-group">
+        <radio>听朋友说玩过</radio>
+        <radio>了解过一点</radio>
+        <radio>玩过一两把</radio>
+        <radio>经常玩</radio>
+        <radio>我是大神！</radio>
+      </radio-group>
+    </view>
+
+    <view class="card">
+      <text class="card-title">3. 您对于剧本杀感兴趣吗？*</text>
+      <radio-group class="card-radio-group">
+        <radio>不喜欢</radio>
+        <radio>感觉很无聊</radio>
+        <radio>还可以</radio>
+        <radio>很喜欢，经常玩</radio>
+      </radio-group>
+    </view>
+
+    <view class="card">
+      <text class="card-title">4. 您能接受一局剧本杀的消费范围是多少？*</text>
+      <radio-group class="card-radio-group">
+        <radio>19元以下</radio>
+        <radio>19元~29元</radio>
+        <radio>29元~59元</radio>
+        <radio>59元~79元</radio>
+        <radio>100元以内</radio>
+      </radio-group>
+    </view>
+
+    <view class="card">
+      <text class="card-title"
+        >5. 在一家剧本杀为主题的店内您还希望有哪些其他桌游？*</text
+      >
+      <radio-group class="card-radio-group">
+        <radio>飞行棋</radio>
+        <radio>UNO</radio>
+        <radio>五子棋/象棋/围棋</radio>
+        <radio>谁是卧底</radio>
+        <radio>桌球</radio>
+      </radio-group>
+    </view>
+
+    <view class="card">
+      <text class="card-title">6. 您对于桌游/剧本杀有什么想说的吗？</text>
+      <textarea class="textarea-wrapper" placeholder="随便说点吧~" />
+    </view>
+
+    <button class="btn-submit" bind:tap="onSubmit">提交</button>
+  </view>
+</scroll-view>
